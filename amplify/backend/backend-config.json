@@ -1,0 +1,64 @@
+{
+  "api": {
+    "apid4899049": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "demoawsrestf59ade0b"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "demoawsrestf59ade0b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "demoawsrestffa44f02": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_demoawsrestf59ade0b_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "demoawsrestf59ade0b"
+        }
+      ]
+    },
+    "AMPLIFY_function_demoawsrestf59ade0b_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "demoawsrestf59ade0b"
+        }
+      ]
+    },
+    "AMPLIFY_function_demoawsrestffa44f02_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "demoawsrestffa44f02"
+        }
+      ]
+    },
+    "AMPLIFY_function_demoawsrestffa44f02_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "demoawsrestffa44f02"
+        }
+      ]
+    }
+  }
+}
